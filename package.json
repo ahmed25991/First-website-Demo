@@ -1,0 +1,17 @@
+{
+  "name": "my-bussines",
+  "version": "1.0.0",
+  "description": "first website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "ahmed elbakary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
