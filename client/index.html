@@ -30,13 +30,16 @@
       				<input type="text" id="user-search" placeholder="Type Zoidac here ...">
       			</div>
       			<div class="form-group">
-      				<button class="btn btn-danger" type="button">Find</button>
+      				<button class="btn btn-danger" type="button" onclick="getData()">Find</button>
       			</div>
 
       		</form>
       	</div>
       	<div class="col-md-4">
-      		<p>Result will display here </p>
+      		<h2 id="name-result" class="black"></h2>
+      		<h5 id="date-result"></h5>
+      		<img id="img-result">
+      		<p id="text-result"></p>
       	</div>
       </div>
 
